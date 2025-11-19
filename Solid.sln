@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srp", "srp\srp.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocp", "ocp\ocp.csproj", "{ED6D0377-11A7-4B36-B717-D6E361253A81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lsp", "lsp\lsp.csproj", "{7E119768-F6A1-4F39-98E0-5A1CC5A8AE39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{ED6D0377-11A7-4B36-B717-D6E361253A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6D0377-11A7-4B36-B717-D6E361253A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6D0377-11A7-4B36-B717-D6E361253A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E119768-F6A1-4F39-98E0-5A1CC5A8AE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E119768-F6A1-4F39-98E0-5A1CC5A8AE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E119768-F6A1-4F39-98E0-5A1CC5A8AE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E119768-F6A1-4F39-98E0-5A1CC5A8AE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
