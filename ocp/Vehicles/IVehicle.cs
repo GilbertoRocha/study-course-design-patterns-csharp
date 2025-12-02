@@ -2,5 +2,5 @@
 
 public interface IVehicle
 {
-	StartVehicle();
+	void StartVehicle();
 }
