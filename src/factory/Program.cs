@@ -13,6 +13,7 @@ Transport transport = args[0] switch
 {
 	"--log" => new MotorcycleTransport(),
 	"--uber" => new CarTransport(),
+	"--eat" => new BikeTransport(),
 	_ => new CarTransport()
 };
 
