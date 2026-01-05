@@ -3,13 +3,15 @@ using AbstractFactory;
 
 static Application ConfigureApplication()
 {
-	string company = "Uber";
+	string company = "Lime";
 
 
 	return company switch
 	{
 		"Uber" => new Application(new UberTransport()),
-		_ => new Application(new NineNineTransport()),
+		"Nine" => new Application(new NineNineTransport()),
+		"Lime" => new Application(new LimeTransport()),
+		_ => throw new Exception("Empresa de transporte não suportada.")
 	};
 }
 
