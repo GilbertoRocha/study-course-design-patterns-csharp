@@ -1,0 +1,42 @@
+﻿using Builder.Components;
+using Builder.Products;
+
+namespace Builder.Builders;
+
+public class VehicleBuilder : IBuilder
+{
+	private Vehicle vehicle = new();
+
+	public Vehicle GetVehicle()
+	{
+		Vehicle result = vehicle;
+		Reset();
+		return result;
+	}
+
+	public void Reset()
+	{
+		vehicle = new Vehicle();
+	}
+
+	public void SetEngine(Engine engine)
+	{
+		vehicle.Engine = engine;
+	}
+
+	public void SetSeats(int seats)
+	{
+		vehicle.Seats = seats;
+	}
+
+	public void SetTransmission(Transmission transmission)
+	{
+		vehicle.Transmission = transmission;
+	}
+
+	public void SetVehicleType(VehiclesType type)
+	{
+		vehicle.VehicleType = type;
+	}
+}
+
