@@ -11,5 +11,6 @@ public interface IBuilder
 	void SetEngine(Engine engine);
 	void SetTransmission(Transmission transmission);
 	void SetVehicleType(VehiclesType type);
+	void SetAirbags(int airbags);
 
 }

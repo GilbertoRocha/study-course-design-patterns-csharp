@@ -8,6 +8,12 @@ public class Vehicle
 	private int seats;
 	private Engine engine;
 	private Transmission transmission;
+	private int airbags;
+
+	public Vehicle()
+	{
+		engine = new Engine(0);
+	}
 
 	public VehiclesType VehicleType
 	{
@@ -31,5 +37,11 @@ public class Vehicle
 	{
 		get => transmission;
 		set => transmission = value;
+	}
+
+	public int Airbags
+	{
+		get => airbags;
+		set => airbags = value;
 	}
 }

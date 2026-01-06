@@ -28,4 +28,12 @@ public class Director
 		builder.SetEngine(new Engine(6000));
 		builder.SetTransmission(Transmission.MANUAL);
 	}
+	public void ConstructSUV()
+	{
+		builder.SetVehicleType(VehiclesType.SUV);
+		builder.SetSeats(5);
+		builder.SetEngine(new Engine(3000));
+		builder.SetTransmission(Transmission.MANUAL);
+		builder.SetAirbags(4);
+	}
 }

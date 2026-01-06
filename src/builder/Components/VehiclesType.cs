@@ -5,5 +5,6 @@ public enum VehiclesType
 	SEDAN,
 	SPORTCAR,
 	PICKUPTRUCK,
-	TRUCK
+	TRUCK,
+	SUV
 }

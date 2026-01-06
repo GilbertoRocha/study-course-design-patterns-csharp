@@ -16,3 +16,8 @@ director.ConstructTruck();
 Vehicle truck = builder.GetVehicle();
 
 Console.WriteLine($"Criado um veiculo : {truck.VehicleType}");
+
+director.ConstructSUV();
+Vehicle suv = builder.GetVehicle();
+
+Console.WriteLine($"Criado um veiculo : {suv.VehicleType}");

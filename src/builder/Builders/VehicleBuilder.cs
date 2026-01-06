@@ -19,6 +19,11 @@ public class VehicleBuilder : IBuilder
 		vehicle = new Vehicle();
 	}
 
+	public void SetAirbags(int airbags)
+	{
+		vehicle.Airbags = airbags;
+	}
+
 	public void SetEngine(Engine engine)
 	{
 		vehicle.Engine = engine;
