@@ -16,4 +16,9 @@ public class AdvancedLive : Live
 		Console.WriteLine("Comentários ativados!");
 	}
 
+	public void RecordLive()
+	{
+		Console.WriteLine("Gravando Live!");
+	}
+
 }

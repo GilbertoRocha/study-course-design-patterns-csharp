@@ -19,10 +19,12 @@ static void StartAdvancedLive(IPlatform platform)
 	live.Result();
 	live.Comments();
 	live.Subtitle();
+	live.RecordLive();
 }
 
-StartAdvancedLive(new YouTube());
+StartLive(new YouTube());
 StartLive(new Facebook());
 StartLive(new TwitchTV());
+StartAdvancedLive(new DLive());
 
 Console.ReadLine();
